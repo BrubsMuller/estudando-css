@@ -1,0 +1,34 @@
+body {
+     /* font-family é herdada p/ os descendentes*/
+     /* fallback = caso a fonte falhe, o browsrr aplica um padrão do sistema */
+     font-family: "Lato", sans-serif;
+     background-color: chocolate; /* nã-herdada */ 
+    }
+
+
+    .codigo {
+        font-family: monospace;
+        color: blue;
+    }
+
+    /* Prioriade = CSS define quais prioridades serão aplicadas ou sobrescrritas
+    
+    inlie > tag style > arquivo extero
+    atributo style > #id > classe > seletor de tipo
+    */
+
+    h1,
+    h2,
+    h3 {
+        background-color: brown;
+        text-decoration: line-through;
+    }
+
+    .custom-h1 {
+        background-color: blue;
+    }
+
+    #meu-h1 {
+        background-color: chartreuse;
+    }
+
