@@ -1,0 +1,34 @@
+.container h1,
+.container h2,
+.container h3 {
+  /* left, center, right, justify */
+    text-align: center;
+  /* italic, oblique */  
+    font-style: italic;
+    /* valores para tamahho da fonte. 100 é a menor espessura indo para 200, 300...., 900 */
+    font-weight: 100;
+    text-decoration: underline;
+    color: purple;
+}
+/*  Este tipo de estrutura para tamanhos de fonte em texto (usando px-pixel), não é muito recomendado. O ideal é usar o rem
+REM = Medida relativa ao elemento HTML*/
+.container h1 {
+  font-size: 3rem; /* 3 *1 6px = 48px*/
+}
+
+.container h2 {
+  font-size: 2,5rem; /* 2.5 * 16px = 40px*/
+}
+
+.container h3 {
+  font-size: 2rem; /* 2 * 16px= 32px*/
+}
+
+.container p {
+  text-align: justify;
+  font-size: 1.25rem; /* 1.25 * 16px = 20px*/
+}
+/* Elemento raíz (html)  SE NÃO FOR DEFINIDO */ 
+html {
+  font-size: 16px;
+}
