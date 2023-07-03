@@ -1,0 +1,45 @@
+/*
+Box Model = podemos configurar a aparência da caixa dos elementos
+padding = preeenchimeto
+margin= espaçamento externo
+border = contorno
+*/
+
+.box1 {
+    background-color: coral;
+    text-align: justify;
+    padding: 20px; /* preenchimento em todos os lados */
+    margin: 20px; /* maregm extera em todos os lados */
+}
+
+.box2 {
+    background-color: greenyellow;
+    /* TOP - RIGHT - BOTTOM - LEFT */
+    padding: 10px 15px 20px 10px; /* segue a ordem no sentido hotário */
+    /* 30px 10px 10px 10px; */
+    /* VERTICAL - HORIZOTAL */
+    margin: 25px 30px; /*outra forma de uso que é numerado apenas dois e apluca-se 1 p/ topo e bottom e outra para os lados*/
+}
+
+.box3 {
+    background-color: brown;
+    /*  estilos de borda: solid, dashed, dotted, double */
+    border: 5px solid black;
+    /*pode fazer separadamente sendo: border-width: 50px;
+                                      border-style: dashed;
+                                      border-color: black; */
+    padding-top: 45px;
+}
+
+.box4 {
+    background-color: tomato;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid yellow;
+    width: 200px;
+    /* indica ao css para levar em cota os 200px a borda e o paddig */
+    box-sizing: border-box;
+
+}
+
+/* COMO APLICAR BOX-SIZING EM TODOS OS ELEMENTOS DA PÁGINA */
