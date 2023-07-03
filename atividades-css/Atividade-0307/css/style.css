@@ -1,0 +1,45 @@
+#h1 {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+body {
+    border-radius: 50%;
+    background-image: url("https://images.unsplash.com/photo-1620177088258-c84147ee601f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1370&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titles {
+    font-family: "Ysabeau_SC", sans-serif; /* perguntar pro prof como baixa a font de modo que de pra usar o vs */
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    
+}
+
+.p {
+    font-family: "Roboto_Slab", Medium 500, sans-serif;
+    text-align: justify;
+    font-size: 2.25rem;
+    color:black;
+}
+
+.secs {
+    margin: 30px;
+    padding: 20px;
+    border: 10px solid rgb(71, 71, 196);
+}
+
+.bt {
+    display: block;
+}
+
+.sct4 {
+    font-size: "Roboto_Slab", sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+}
