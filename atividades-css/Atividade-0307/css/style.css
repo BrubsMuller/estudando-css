@@ -1,5 +1,5 @@
 #h1 {
-    font-family: monospace;
+    font-family: "Ysabeau_SC", sans-serif;
     font-weight: bold;
     font-size: 4rem;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 .titles {
-    font-family: "Ysabeau_SC", sans-serif; /* perguntar pro prof como baixa a font de modo que de pra usar o vs */
+    font-family: "Ysabeau_SC", sans-serif; /* perguntar pro prof como baixa a font de modo que de pra usar no vs */
     text-align: center;
     font-size: 3rem;
     text-decoration: underline;
@@ -35,11 +35,23 @@ body {
 }
 
 .bt {
-    display: block;
+    display: inline;
 }
 
 .sct4 {
     font-size: "Roboto_Slab", sans-serif;
     font-size: 2rem;
+    text-align: center;
     display: inline-block;
 }
+
+.li {
+    display: inline-table;
+}
+
+.a {
+    color: black;
+}
+
+/* usar isso aqui scroll-behavior: smooth; */
+
