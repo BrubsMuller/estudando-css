@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-1 {
+    background-color: brown;
+    /* padding: 12px; */
+    display: flex; /*  ativa o flexbox e por padrão em direçã row(linha) -> se usa no contaier principal (está em row, eixo main-vertical)*/
+    /* row, colum */
+    flex-direction: row;
+    /* nowrap, wrap - indica se pode quebrar linha se não houver espaço, para que respeitem os pixels definidos em width lá em baixo*/
+    flex-wrap: wrap; /* quando não se tem tamamho definido, pode usar o no-wrap*/
+    /*flex-flow: row wrap; --> atalho para flexdirection e flex wrap */
+    /*space between é outro valor para justify que cria espaço entre os itens (elementos) e espace-around*/
+    justify-content: space-around; /* o valor padrão do justify é start, mas tem tbm o valor center  */
+    /* o justify-content vai ajustar os elementos no eixo main(horizontal)*/
+    /* valores de alig-items -> stretch(esticar), flex start, flex-end, center */
+    align-items: center; /* vou ajustar os elemetos no eixo cross*/
+    /* valores para align-content = space between, space around, center, flex start e flex end.*/
+    /*align-content: flex-end;*/
+    
+    height: 600px;
+}
+
+.item-1 {
+    background-color: orange;
+}
+
+.item-2 {
+    background-color: greenyellow;
+}
+
+.item-3 {
+    background-color: gold;
+    /* flex-start, felx-end, ceter e strech(valor padrão) */
+    align-self: flex-end; /* vai oferecer uma maneira de alinha no eixo cross, idividualmente*/
+}
+
+.item-4 {
+    background-color: hotpink;
+}
+
+.item-1, 
+.item-2, 
+.item-3, 
+.item-4 {
+    width: 200px;
+    padding: 8px;
+}
