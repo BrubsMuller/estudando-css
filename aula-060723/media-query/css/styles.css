@@ -1,0 +1,37 @@
+/*
+Media Queries = regras especiais (pode ser aplicada ou não)
+
+@media codicao {
+    // estilos a serem aplicdos caso a condição seja verdadeira.
+}
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: teal;
+    font-family: monospace;
+}
+
+/* screen = Dispositivos de tela (mobile, tablet, desktop) */
+@media screen and (max-width: 599px) {
+                    /*se a largura for menor ou igual a 559px, se aplica as instruções abaixo*/
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+        /* /*se a largura for maior ou igual a 600px, se aplica as instruções abaixo
+        e se a largura é meor ou igual a mil.
+        esta media está na faixa etre 600px-1000px.
+        */ 
+    body {
+        background-color: olive;
+    }
+    
+}
